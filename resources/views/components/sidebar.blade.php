@@ -15,5 +15,9 @@
                     </li>
                 </ul> -->
             </li>
+            <li class="nav-item dropdown ">
+                <a href="{{ route('users.index') }}" class="nav-link"><i class="fas fa-fire"></i><span>User</span></a>
+
+            </li>
 
 </div>
