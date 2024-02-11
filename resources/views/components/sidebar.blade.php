@@ -8,16 +8,14 @@
         </div>
         <ul class="sidebar-menu">
             <li class="nav-item dropdown ">
-                <a href="#" class="nav-link"><i class="fas fa-fire"></i><span>Dashboard</span></a>
-                <!-- <ul class="dropdown-menu">
-                    <li class='{{ Request::is('dashboard-general-dashboard') ? 'active' : '' }}'>
-                        <a class="nav-link" href="{{ url('dashboard-general-dashboard') }}">General Dashboard</a>
-                    </li>
-                </ul> -->
+                <a href="{{ route('dashboard') }}" class="nav-link"><i class="fas fa-fire"></i><span>Dashboard</span></a>
             </li>
             <li class="nav-item dropdown ">
-                <a href="{{ route('users.index') }}" class="nav-link"><i class="fas fa-fire"></i><span>User</span></a>
-
+                <a href="{{ route('products.index') }}" class="nav-link"><i
+                        class="far fa-user"></i><span>Product</span></a>
+            </li>
+            <li class="nav-item dropdown ">
+                <a href="{{ route('users.index') }}" class="nav-link"><i class="far fa-user"></i><span>User</span></a>
             </li>
 
 </div>
